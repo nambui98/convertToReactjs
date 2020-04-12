@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import { Modal, Button } from 'react-bootstrap';
 
 SubscribeNewsletter.propTypes = {};
 
 function SubscribeNewsletter(props) {
 	return (
 		<section id="subscribe-popups" className="subscribe-me popups-wrap">
-			<div className="modal-content">
+			<Modal className="modal-content">
 				<button type="button" className="sb-close-btn close popup-cls">
 					{' '}
 					<i className="fa-times fa clr-txt" />{' '}
@@ -43,7 +44,7 @@ function SubscribeNewsletter(props) {
 						</div>
 					</form>
 				</div>
-			</div>
+			</Modal>
 		</section>
 	);
 }

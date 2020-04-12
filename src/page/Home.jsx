@@ -13,32 +13,31 @@ import Footer from '../component/Footer';
 import SubscribeNewsletter from '../component/SubscribeNewsletter';
 import { Link } from 'react-router-dom';
 
-class Home extends React.Component {
-	render() {
-		return (
-			// <div className="App">
-			// 	{/* <Loading /> */}
-			[
-				<Slider />,
-				<Organic />,
-				<OrganicFarmfood />,
-				<OurProducts />,
-				// <NaturixGoods />,
-				<Deals />,
-				<RandomProducts />,
+function Home(props) {
+	console.log(props);
+	return (
+		// <div className="App">
+		// 	{/* <Loading /> */}
+		[
+			<Slider />,
+			<Organic handleShow={props.handleShow} />,
+			<OrganicFarmfood />,
+			<OurProducts />,
+			// <NaturixGoods />,
+			<Deals />,
+			<RandomProducts />,
 
-				<NewsHighlights />,
-				// <Footer />,
+			<NewsHighlights />,
+			// <Footer />,
 
-				<div id="to-top-mb" className="to-top mb">
-					{' '}
-					<i className="fa fa-arrow-circle-o-up" />
-				</div>
-			]
+			<div id="to-top-mb" className="to-top mb">
+				{' '}
+				<i className="fa fa-arrow-circle-o-up" />
+			</div>
+		]
 
-			// </div>
-		);
-	}
+		// </div>
+	);
 }
 
 export default Home;

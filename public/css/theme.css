@@ -3574,7 +3574,7 @@ p {
     text-align: center;
 }
 
-.product-single .sync2 .owl-nav > div {
+.product-single .sync2 .owl-nav > button {
     background-color: #fff;
     border: 1px solid #e5e5e5;
     border-radius: 15px;
@@ -3588,15 +3588,16 @@ p {
     padding: 2px 10px;
     position: absolute;
     top: 0;
+    outline: none;
 }
 
-.product-single .sync2 .owl-nav > .owl-next {
+.product-modal .product-single .sync2 .owl-nav > .owl-next {
     left: auto;
     right: -10px;
 }
 
-.product-single .sync2 .owl-nav > div:hover,
-.product-single .sync2 .owl-nav > div:focus {
+.product-single .sync2 .owl-nav > button:hover,
+.product-single .sync2 .owl-nav > button:focus {
     background-color: #92d2a7;
     color: #fff;
 }

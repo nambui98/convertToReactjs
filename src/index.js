@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './index.css';
+
 import App from './App';
 import Home from './page/Home';
 import About from './page/About';
 import Menu from './component/Header';
-import * as serviceWorker from './serviceWorker';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
+import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
 	<React.StrictMode>
 		<Router>

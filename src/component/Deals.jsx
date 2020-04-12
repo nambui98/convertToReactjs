@@ -56,9 +56,9 @@ function Deals(props) {
 					<div className="item">
 						<div className="deal-item">
 							<div className="deal-icons">
-								<Link href="#" className="fa fa-heart" />
-								<Link href="#" className="fa fa-shopping-basket" />
-								<Link href="#product-preview" data-toggle="modal" className="fa fa-expand" />
+								<Link to="#" className="fa fa-heart" />
+								<Link to="#" className="fa fa-shopping-basket" />
+								<Link to="#product-preview" data-toggle="modal" className="fa fa-expand" />
 							</div>
 							<div className="deal-content">
 								<div className="text-right">
@@ -69,7 +69,7 @@ function Deals(props) {
 									<h4 className="sub-title"> ORGANIC FRUITS </h4>
 									<h2 className="fsz-30 pb-15">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">fresh </span> <strong>rasberry </strong>{' '}
 										</Link>{' '}
@@ -90,9 +90,9 @@ function Deals(props) {
 					<div className="item">
 						<div className="deal-item">
 							<div className="deal-icons">
-								<Link href="#" className="fa fa-heart" />
-								<Link href="#" className="fa fa-shopping-basket" />
-								<Link href="#product-preview" data-toggle="modal" className="fa fa-expand" />
+								<Link to="#" className="fa fa-heart" />
+								<Link to="#" className="fa fa-shopping-basket" />
+								<Link to="#product-preview" data-toggle="modal" className="fa fa-expand" />
 							</div>
 							<div className="deal-content">
 								<div className="text-right">
@@ -103,7 +103,7 @@ function Deals(props) {
 									<h4 className="sub-title"> ORGANIC FRUITS </h4>
 									<h2 className="fsz-30 pb-15">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">fresh </span> <strong>pineapple </strong>{' '}
 										</Link>{' '}
@@ -124,9 +124,9 @@ function Deals(props) {
 					<div className="item">
 						<div className="deal-item">
 							<div className="deal-icons">
-								<Link href="#" className="fa fa-heart" />
-								<Link href="#" className="fa fa-shopping-basket" />
-								<Link href="#product-preview" data-toggle="modal" className="fa fa-expand" />
+								<Link to="#" className="fa fa-heart" />
+								<Link to="#" className="fa fa-shopping-basket" />
+								<Link to="#product-preview" data-toggle="modal" className="fa fa-expand" />
 							</div>
 							<div className="deal-content">
 								<div className="text-right">
@@ -137,7 +137,7 @@ function Deals(props) {
 									<h4 className="sub-title"> ORGANIC FRUITS </h4>
 									<h2 className="fsz-30 pb-15">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">fresh </span> <strong>rasberry </strong>{' '}
 										</Link>{' '}
@@ -158,9 +158,9 @@ function Deals(props) {
 					<div className="item">
 						<div className="deal-item">
 							<div className="deal-icons">
-								<Link href="#" className="fa fa-heart" />
-								<Link href="#" className="fa fa-shopping-basket" />
-								<Link href="#product-preview" data-toggle="modal" className="fa fa-expand" />
+								<Link to="#" className="fa fa-heart" />
+								<Link to="#" className="fa fa-shopping-basket" />
+								<Link to="#product-preview" data-toggle="modal" className="fa fa-expand" />
 							</div>
 							<div className="deal-content">
 								<div className="text-right">
@@ -171,7 +171,7 @@ function Deals(props) {
 									<h4 className="sub-title"> ORGANIC FRUITS </h4>
 									<h2 className="fsz-30 pb-15">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">fresh </span> <strong>pineapple </strong>{' '}
 										</Link>{' '}

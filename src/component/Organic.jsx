@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { Button } from 'react-bootstrap';
 import OwlCarousel from 'react-owl-carousel';
 
 Organic.propTypes = {};
@@ -74,18 +75,14 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/2.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
-												<Link
-													href="#product-preview"
-													data-toggle="modal"
-													className="fa fa-expand"
-												/>
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
+												<Link className="fa fa-expand" onClick={props.handleShow} />
 											</div>
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cabbege</strong>
@@ -103,10 +100,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -114,7 +111,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -135,10 +132,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -146,7 +143,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -163,10 +160,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -174,7 +171,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -192,10 +189,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/6.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -203,7 +200,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>onion</strong>
 												</Link>
@@ -220,10 +217,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -231,7 +228,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -252,10 +249,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -263,7 +260,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -280,10 +277,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/1.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -291,7 +288,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>tomato</strong>
@@ -309,10 +306,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/2.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -320,7 +317,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cabbege</strong>
@@ -338,10 +335,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -349,7 +346,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -370,10 +367,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -381,7 +378,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -398,10 +395,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -409,7 +406,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -427,10 +424,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/6.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -438,7 +435,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>onion</strong>
 												</Link>
@@ -455,10 +452,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -466,7 +463,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -487,10 +484,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -498,7 +495,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -517,10 +514,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -528,7 +525,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -545,10 +542,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -556,7 +553,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -576,10 +573,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -587,7 +584,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -604,10 +601,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -615,7 +612,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -654,10 +651,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/1.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -665,7 +662,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>tomato</strong>
@@ -683,10 +680,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/2.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -694,7 +691,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cabbege</strong>
@@ -712,10 +709,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -723,7 +720,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -744,10 +741,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -755,7 +752,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -772,10 +769,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -783,7 +780,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -801,10 +798,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/6.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -812,7 +809,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>onion</strong>
 												</Link>
@@ -829,10 +826,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -840,7 +837,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -861,10 +858,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -872,7 +869,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -891,10 +888,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -902,7 +899,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -919,10 +916,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -930,7 +927,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -950,10 +947,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -961,7 +958,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -978,10 +975,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -989,7 +986,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -1029,10 +1026,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1040,7 +1037,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -1061,10 +1058,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1072,7 +1069,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -1091,10 +1088,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1102,7 +1099,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -1119,10 +1116,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1130,7 +1127,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -1150,10 +1147,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1161,7 +1158,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -1178,10 +1175,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1189,7 +1186,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -1229,10 +1226,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/1.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1240,7 +1237,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>tomato</strong>
@@ -1258,10 +1255,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/2.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1269,7 +1266,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cabbege</strong>
@@ -1287,10 +1284,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1298,7 +1295,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -1319,10 +1316,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1330,7 +1327,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -1347,10 +1344,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1358,7 +1355,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -1376,10 +1373,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/6.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1387,7 +1384,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>onion</strong>
 												</Link>
@@ -1404,10 +1401,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1415,7 +1412,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -1436,10 +1433,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1447,7 +1444,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -1464,10 +1461,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/1.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1475,7 +1472,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>tomato</strong>
@@ -1493,10 +1490,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/2.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1504,7 +1501,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cabbege</strong>
@@ -1522,10 +1519,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1533,7 +1530,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -1554,10 +1551,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1565,7 +1562,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -1582,10 +1579,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1593,7 +1590,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
@@ -1611,10 +1608,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/6.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1622,7 +1619,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>onion</strong>
 												</Link>
@@ -1639,10 +1636,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/3.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1650,7 +1647,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>cherry</strong>
@@ -1671,10 +1668,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1682,7 +1679,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -1701,10 +1698,10 @@ function Organic(props) {
 											<span className="prod-tag tag-1">new</span>{' '}
 											<span className="prod-tag tag-2">sale</span>
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1712,7 +1709,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span> <strong>salad</strong>
 												</Link>
@@ -1729,10 +1726,10 @@ function Organic(props) {
 											<img className="prod-img" alt="" src="img/products/5.png" />
 											<img className="shape" alt="" src="img/icons/shap-small.png" />
 											<div className="prod-icons">
-												<Link href="#" className="fa fa-heart" />
-												<Link href="#" className="fa fa-shopping-basket" />
+												<Link to="#" className="fa fa-heart" />
+												<Link to="#" className="fa fa-shopping-basket" />
 												<Link
-													href="#product-preview"
+													to="#product-preview"
 													data-toggle="modal"
 													className="fa fa-expand"
 												/>
@@ -1740,7 +1737,7 @@ function Organic(props) {
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
-												<Link href="#">
+												<Link to="#">
 													{' '}
 													<span className="light-font"> organic </span>{' '}
 													<strong>pineapple</strong>
