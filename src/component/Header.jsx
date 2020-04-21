@@ -15,7 +15,9 @@ function Header(props) {
 	// 	setActive(location);
 	// }, []);
 	let classMenu =
-		location.pathname === '/' || location.pathname === '/convertToReactjs' ? 'main-header' : 'main-header white-bg';
+		location.pathname === '/' || location.pathname === '/convertToReactjs/'
+			? 'main-header'
+			: 'main-header white-bg';
 	const onchageMenu = (name) => {
 		setActive(name);
 	};
