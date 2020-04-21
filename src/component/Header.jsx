@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import OwlCarousel from 'react-owl-carousel';
@@ -7,16 +7,30 @@ Header.propTypes = {};
 
 function Header(props) {
 	console.log(props);
-	let location = useLocation();
-	console.log(location.pathname);
 
+	let location = useLocation();
+	const [ active, setActive ] = useState(location.pathname);
+	console.log(location.pathname, active);
+	// useEffect(() => {
+	// 	setActive(location);
+	// }, []);
 	let classMenu = location.pathname === '/' ? 'main-header' : 'main-header white-bg';
+	const onchageMenu = (name) => {
+		setActive(name);
+	};
+	const menu = [
+		{ name: 'Trang chủ', path: '/' },
+		{ name: 'Về chúng tôi', path: '/about' },
+		{ name: 'Cửa hàng', path: '/shop' },
+		{ name: 'Tin tức', path: '/blog' },
+		{ name: 'Liên hệ', path: '/contact' }
+	];
 	return (
 		<header className={classMenu}>
 			<div className="container-fluid rel-div">
 				<div className="col-lg-4 col-sm-8">
 					<div className="main-logo">
-						<Link to="index.html">
+						<Link to="/">
 							<img alt="" src="img/logo/main-logo.png" />
 						</Link>
 						<span className="medium-font">ORGANIC STORE</span>
@@ -26,125 +40,38 @@ function Header(props) {
 					<div className="responsive-toggle fa fa-bars"> </div>
 					<nav className="fix-navbar" id="primary-navigation">
 						<ul className="primary-navbar">
-							<li className="dropdown active">
-								<Link to="/">Home</Link>
-							</li>
-							<li>
-								<Link to="/about">About Us</Link>
-							</li>
-							<li className="dropdown">
-								<Link
-									to="#"
-									className="dropdown-toggle"
-									data-toggle="dropdown"
-									role="button"
-									aria-haspopup="true"
-								>
-									Shop
-								</Link>
-								<ul className="dropdown-menu">
-									<li>
-										<Link to="shop-1.html"> shop </Link>
-									</li>
-									<li>
-										<Link to="shop-2.html"> shop 2 </Link>
-									</li>
-									<li>
-										<Link to="shop-single.html"> shop single </Link>
-									</li>
-									<li>
-										<Link to="my-account.html"> my account </Link>
-									</li>
-								</ul>
-							</li>
-							<li className="dropdown">
-								<Link
-									to="#"
-									className="dropdown-toggle"
-									data-toggle="dropdown"
-									role="button"
-									aria-haspopup="true"
-								>
-									Blog
-								</Link>
-								<ul className="dropdown-menu">
-									<li>
-										<Link to="blog.html"> blog </Link>
-									</li>
-									<li>
-										<Link to="blog-single.html"> blog single </Link>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<Link to="contact.html">Contact Us</Link>
-							</li>
-							<li className="dropdown">
-								<Link
-									to="#"
-									className="dropdown-toggle"
-									data-toggle="dropdown"
-									role="button"
-									aria-haspopup="true"
-								>
-									Pages
-								</Link>
-								<ul className="dropdown-menu">
-									<li>
-										<Link to="404.html"> Error Page </Link>
-									</li>
-									<li>
-										<Link to="coming-soon.html"> Coming Soon </Link>
-									</li>
-									<li className="dropdown">
-										<Link
-											to="#"
-											className="dropdown-toggle"
-											data-toggle="dropdown"
-											role="button"
-											aria-haspopup="true"
-										>
-											Sub Menu
+							{menu.map((item, index) => {
+								return (
+									<li key={index} className={active === item.path ? 'dropdown active' : 'dropdown'}>
+										<Link to={item.path} onClick={() => onchageMenu(item.path)}>
+											{item.name}
 										</Link>
-										<ul className="dropdown-menu">
-											<li>
-												<Link to="#">Sub Menu 1</Link>
-											</li>
-											<li>
-												<Link to="#">Sub Menu 2</Link>
-											</li>
-											<li className="dropdown">
-												<Link
-													to="#"
-													className="dropdown-toggle"
-													data-toggle="dropdown"
-													role="button"
-													aria-haspopup="true"
-												>
-													Sub Menu 3
-												</Link>
-												<ul className="dropdown-menu">
-													<li>
-														<Link to="#">Sub Menu 4</Link>
-													</li>
-													<li>
-														<Link to="#">Sub Menu 5</Link>
-													</li>
-													<li>
-														<Link to="#">Sub Menu 6</Link>
-													</li>
-												</ul>
-											</li>
-										</ul>
 									</li>
-								</ul>
+								);
+							})}
+							{/* <li className="dropdown active">
+								<Link to="/" onClick={onchageMenu}>
+									Trang chủ
+								</Link>
 							</li>
+							<li>
+								<Link to="/about">Về chúng tôi</Link>
+							</li>
+							<li className="dropdown">
+								<Link to="/shop">Cửa hàng</Link>
+							</li>
+							<li className="dropdown">
+								<Link to="/blog">Tin tức</Link>
+							</li>
+							<li>
+								<Link to="/contact">Liên hệ</Link>
+							</li> */}
 						</ul>
 					</nav>
 				</div>
 				<div className="col-lg-2 col-sm-4 cart-megamenu">
 					<div className="cart-hover">
-						<Link to="#">
+						<Link to="/cart">
 							{' '}
 							<img alt="" src="img/icons/cart-icon.png" />{' '}
 						</Link>
@@ -221,7 +148,7 @@ function Header(props) {
 							</li>
 							<li className="cart-list sub-total">
 								<div className="pull-left">
-									<strong>Subtotal</strong>
+									<strong>Tổng tiền</strong>
 								</div>
 								<div className="pull-right">
 									<strong className="clr-txt">$150.00</strong>
@@ -229,14 +156,13 @@ function Header(props) {
 							</li>
 							<li className="cart-list buttons">
 								<div className="pull-left">
-									<Link to="cart.html" className="theme-btn-sm-2">
-										View Cart
+									<Link to="/cart" className="theme-btn-sm-2">
+										Giỏ hàng
 									</Link>
 								</div>
 								<div className="pull-right">
-									<Link to="checkout.html" className="theme-btn-sm-3">
-										{' '}
-										Checkout{' '}
+									<Link to="/checkout" className="theme-btn-sm-3">
+										Thanh toán
 									</Link>
 								</div>
 							</li>
@@ -270,12 +196,12 @@ function Header(props) {
 									<div className="menu-caption">
 										<h2 className="menu-title">
 											{' '}
-											<span className="light-font"> Fresh </span> <strong>Fruits</strong>{' '}
+											<span className="light-font"> Hoa Quả </span> <strong>Tươi</strong>{' '}
 										</h2>
 										<ul className="sub-list">
 											<li>
 												{' '}
-												<Link to="#">Banana</Link>{' '}
+												<Link to="#">Chuối</Link>{' '}
 											</li>
 											<li>
 												{' '}
@@ -314,7 +240,7 @@ function Header(props) {
 											{' '}
 											<Link to="#" className="clr-txt">
 												{' '}
-												All Fruits{' '}
+												Tất Cả Hoa Quả{' '}
 											</Link>{' '}
 										</h2>
 									</div>
@@ -326,7 +252,7 @@ function Header(props) {
 									<div className="menu-caption">
 										<h2 className="menu-title">
 											{' '}
-											<span className="light-font"> Fresh </span> <strong>Vegetables</strong>{' '}
+											<span className="light-font"> Rau </span> <strong>Tươi</strong>{' '}
 										</h2>
 										<ul className="sub-list">
 											<li>
@@ -370,7 +296,7 @@ function Header(props) {
 											{' '}
 											<Link to="#" className="clr-txt">
 												{' '}
-												All Vegetables{' '}
+												Tất Cả Rau{' '}
 											</Link>{' '}
 										</h2>
 									</div>
@@ -382,7 +308,7 @@ function Header(props) {
 									<div className="menu-caption">
 										<h2 className="menu-title">
 											{' '}
-											<span className="light-font"> Fresh </span> <strong>Dread Juices</strong>{' '}
+											<span className="light-font"> Nước Ép </span> <strong>Tươi</strong>{' '}
 										</h2>
 										<ul className="sub-list">
 											<li>
@@ -426,7 +352,7 @@ function Header(props) {
 											{' '}
 											<Link to="#" className="clr-txt">
 												{' '}
-												All Dread juices{' '}
+												Tất Cả Nước Ép Tươi{' '}
 											</Link>{' '}
 										</h2>
 									</div>
@@ -434,175 +360,6 @@ function Header(props) {
 										<img alt="" src="img/extra/menu-3.png" />
 									</div>
 								</div>
-								<div className="menu-block">
-									<div className="menu-caption">
-										<h2 className="menu-title">
-											{' '}
-											<span className="light-font"> Fresh </span> <strong>Juices</strong>{' '}
-										</h2>
-										<ul className="sub-list">
-											<li>
-												{' '}
-												<Link to="#">Banana Juice</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Water Melon Juice</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Blackberry Juice</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Plume Juice</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Orange Juice</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Lemon Juice</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Pineapple Juice</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Apple Juice</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Kiwi Juice</Link>{' '}
-											</li>
-										</ul>
-										<h2 className="title">
-											{' '}
-											<Link to="#" className="clr-txt">
-												{' '}
-												All Fresh Juices{' '}
-											</Link>{' '}
-										</h2>
-									</div>
-									<div className="menu-img">
-										<img alt="" src="img/extra/menu-1.png" />
-									</div>
-								</div>
-								<div className="menu-block">
-									<div className="menu-caption">
-										<h2 className="menu-title">
-											{' '}
-											<span className="light-font"> Fresh </span> <strong>Breads</strong>{' '}
-										</h2>
-										<ul className="sub-list">
-											<li>
-												{' '}
-												<Link to="#">Banana</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Water Melon </Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Blackberry </Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Plume</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Orange</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Lemon</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Pineapple</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Apple</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Kiwi</Link>{' '}
-											</li>
-										</ul>
-										<h2 className="title">
-											{' '}
-											<Link to="#" className="clr-txt">
-												{' '}
-												All Fresh Bread{' '}
-											</Link>{' '}
-										</h2>
-									</div>
-									<div className="menu-img">
-										<img alt="" src="img/extra/menu-5.png" />
-									</div>
-								</div>
-								<div className="menu-block">
-									<div className="menu-caption">
-										<h2 className="menu-title">
-											{' '}
-											<span className="light-font"> Fresh </span> <strong>Tea</strong>{' '}
-										</h2>
-										<ul className="sub-list">
-											<li>
-												{' '}
-												<Link to="#">Cabbage</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Garlic </Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Onion </Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Plume</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Carrot</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Papper</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Mushrome</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Apple</Link>{' '}
-											</li>
-											<li>
-												{' '}
-												<Link to="#">Kiwi</Link>{' '}
-											</li>
-										</ul>
-										<h2 className="title">
-											{' '}
-											<Link to="#" className="clr-txt">
-												{' '}
-												All Freash Tea{' '}
-											</Link>{' '}
-										</h2>
-									</div>
-									<div className="menu-img">
-										<img alt="" src="img/extra/menu-6.png" />
-									</div>
-								</div>
-								{/* </div> */}
 							</OwlCarousel>
 						</div>
 					</div>

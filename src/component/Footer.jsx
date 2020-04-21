@@ -12,7 +12,7 @@ function Footer(props) {
 					<div className="row">
 						<div className="col-md-3 col-sm-12 footer-widget">
 							<div className="main-logo">
-								<Link href="index.html">
+								<Link to="index.html">
 									{' '}
 									<img alt="" src="img/logo/main-logo.png" />
 								</Link>
@@ -37,14 +37,14 @@ function Footer(props) {
 										{' '}
 										<i className="fa fa-envelope-square" />{' '}
 										<span>
-											<Link href="#">contact@naturix.com</Link>{' '}
+											<Link to="#">contact@naturix.com</Link>{' '}
 										</span>{' '}
 									</li>
 									<li>
 										{' '}
 										<i className="fa fa-phone-square" />{' '}
 										<span>
-											<Link href="#">www.naturix.com</Link>{' '}
+											<Link to="#">www.naturix.com</Link>{' '}
 										</span>{' '}
 									</li>
 								</ul>
@@ -53,29 +53,29 @@ function Footer(props) {
 						<div className="col-md-3 col-sm-4 footer-widget">
 							<h2 className="title-1">
 								{' '}
-								<span className="light-font">naturix</span> <strong>information </strong>{' '}
+								<span className="light-font">naturix</span> <strong>thông tin </strong>{' '}
 							</h2>
 							<span className="divider-2" />
 							<ul className="list">
 								<li>
 									{' '}
-									<Link href="#"> about our shop </Link>{' '}
+									<Link to="/about"> về cửa hàng chúng tôi </Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#"> top sellers </Link>{' '}
+									<Link to="/sell"> sản phẩm selling </Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#"> our blog </Link>{' '}
+									<Link to="/blog"> tin tức </Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#"> new products </Link>{' '}
+									<Link to="/new"> sản phẩm mới </Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#"> secure shopping </Link>{' '}
+									<Link to="/shop"> cửa hàng </Link>{' '}
 								</li>
 							</ul>
 						</div>
@@ -88,25 +88,25 @@ function Footer(props) {
 							<ul className="list">
 								<li>
 									{' '}
-									<Link href="my-account.html"> my account </Link>{' '}
+									<Link to="my-account.html"> my account </Link>{' '}
 								</li>
 								<li>
-									<Link href="account-information.html"> Account Information </Link>
+									<Link to="account-information.html"> Account Information </Link>
 								</li>
 								<li>
-									<Link href="address-book.html"> Address Books</Link>
+									<Link to="address-book.html"> Address Books</Link>
 								</li>
 								<li>
-									<Link href="order-history.html"> Order History</Link>
+									<Link to="order-history.html"> Order History</Link>
 								</li>
 								<li>
-									<Link href="review-rating.html"> Reviews and Ratings</Link>
+									<Link to="review-rating.html"> Reviews and Ratings</Link>
 								</li>
 								<li>
-									<Link href="return.html"> Returns Requests</Link>
+									<Link to="return.html"> Returns Requests</Link>
 								</li>
 								<li>
-									<Link href="newsletter.html"> Newsletter</Link>
+									<Link to="newsletter.html"> Newsletter</Link>
 								</li>
 							</ul>
 						</div>
@@ -119,42 +119,42 @@ function Footer(props) {
 							<ul className="instagram-widget">
 								<li>
 									{' '}
-									<Link href="#">
+									<Link to="#">
 										{' '}
 										<img src="img/extra/80x80-1.jpg" alt="" />{' '}
 									</Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#">
+									<Link to="#">
 										{' '}
 										<img src="img/extra/80x80-2.jpg" alt="" />{' '}
 									</Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#">
+									<Link to="#">
 										{' '}
 										<img src="img/extra/80x80-3.jpg" alt="" />{' '}
 									</Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#">
+									<Link to="#">
 										{' '}
 										<img src="img/extra/80x80-4.jpg" alt="" />{' '}
 									</Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#">
+									<Link to="#">
 										{' '}
 										<img src="img/extra/80x80-5.jpg" alt="" />{' '}
 									</Link>{' '}
 								</li>
 								<li>
 									{' '}
-									<Link href="#">
+									<Link to="#">
 										{' '}
 										<img src="img/extra/80x80-6.jpg" alt="" />{' '}
 									</Link>{' '}

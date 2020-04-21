@@ -20,28 +20,16 @@ function Organic(props) {
 					<img className="logo-img" alt="" src="img/logo/logo-1.png" />
 					<div className="tabs-box">
 						<ul className="theme-tabs">
-							<li className="">
+							<li className="active">
 								<Link to="#product-tab-1" data-toggle="tab">
 									{' '}
-									<span className="light-font">organic </span> <strong>fruits </strong>{' '}
+									<strong>Hoa quả </strong> <span className="light-font">hữu cơ </span>{' '}
 								</Link>
 							</li>
-							<li className="active">
+							<li className="">
 								<Link to="#product-tab-2" data-toggle="tab">
 									{' '}
-									<span className="light-font">organic </span> <strong>vegetables </strong>{' '}
-								</Link>
-							</li>
-							<li className="">
-								<Link to="#product-tab-3" data-toggle="tab">
-									{' '}
-									<span className="light-font">organic </span> <strong>juices </strong>{' '}
-								</Link>
-							</li>
-							<li className="">
-								<Link to="#product-tab-4" data-toggle="tab">
-									{' '}
-									<span className="light-font">organic </span> <strong>dried fruits </strong>{' '}
+									<strong>Rau </strong> <span className="light-font">hữu cơ </span>{' '}
 								</Link>
 							</li>
 						</ul>
@@ -77,15 +65,14 @@ function Organic(props) {
 											<div className="prod-icons">
 												<Link to="#" className="fa fa-heart" />
 												<Link to="#" className="fa fa-shopping-basket" />
-												<Link className="fa fa-expand" onClick={props.handleShow} />
+												<Link to="" className="fa fa-expand" onClick={props.handleShow} />
 											</div>
 										</div>
 										<div className="product-caption">
 											<h3 className="product-title">
 												<Link to="#">
-													{' '}
-													<span className="light-font"> organic </span>{' '}
-													<strong>cabbege</strong>
+													<strong> Bắp cải </strong>{' '}
+													<span className="light-font">hữu cơ</span>
 												</Link>
 											</h3>
 											<div className="price">

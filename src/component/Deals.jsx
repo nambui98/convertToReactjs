@@ -2,10 +2,44 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import OwlCarousel from 'react-owl-carousel';
+import Countdown from 'react-countdown-now';
 
 Deals.propTypes = {};
 
 function Deals(props) {
+	const Completionist = () => <span>You are good to go!</span>;
+	const d = new Date();
+	// Renderer callback with condition
+	let cou = ((24 - d.getHours()) * 60 * 60 + (60 - d.getMinutes()) * 60 + (60 - d.getSeconds())) * 1000;
+	const renderer = ({ hours, minutes, seconds, completed }) => {
+		if (completed) {
+			// Render a complete state
+			return <Completionist />;
+		} else {
+			// Render a countdown
+			return (
+				<div id="defaultCountdown" className="countdown is-countdown">
+					<span className="countdown-row countdown-show4">
+						<span className="countdown-section">
+							<span className="countdown-amount">{hours}</span>
+							<span className="countdown-period">Giờ</span>
+						</span>
+						<span className="countdown-section">
+							<span className="countdown-amount">{minutes}</span>
+							<span className="countdown-period">Phút</span>
+						</span>
+						<span className="countdown-section">
+							<span className="countdown-amount">{seconds}</span>
+							<span className="countdown-period">Giây</span>
+						</span>
+					</span>
+				</div>
+				// <span>
+				// 	{hours}:{minutes}:{seconds}
+				// </span>
+			);
+		}
+	};
 	return (
 		<section className="deals sec-space light-bg">
 			<img alt="" src="img/extra/sec-img-3.png" className="right-bg-img" />
@@ -13,11 +47,11 @@ function Deals(props) {
 			<div className="container">
 				<div className="row">
 					<div className="col-sm-5 text-right">
-						<h4 className="sub-title"> NATURIX DEAL OF THE DAY </h4>
+						<h4 className="sub-title"> NATURIX DEAL CỦA NGÀY </h4>
 						<h2 className="section-title">
 							{' '}
-							<span className="light-font">organic goods </span> <strong>50% </strong>{' '}
-							<span className="light-font">off</span>{' '}
+							<span className="light-font">sản phẩm tốt giảm </span> <strong>50% </strong>{' '}
+							{/* <span className="light-font">off</span>{' '} */}
 						</h2>
 					</div>
 					<div className="col-sm-2 text-center no-padding">
@@ -25,14 +59,15 @@ function Deals(props) {
 					</div>
 					<div className="col-sm-5">
 						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-							tincidunt ut laoreet dolore magna aliquam erat volutpat.{' '}
+							Mỗi ngày sẽ có các sản phẩm rau hữu cơ và hoa quả sạch được giảm giá, bạn còn trông chờ gì
+							nữa!
 						</p>
 					</div>
 				</div>
 				<div className="deal-count">
 					<div className="countdown-wrapper">
-						<div id="defaultCountdown" className="countdown" />
+						<Countdown className="countdown" renderer={renderer} date={Date.now() + cou} />
+						{/* <div id="defaultCountdown" className="countdown" /> */}
 					</div>
 				</div>
 				<OwlCarousel

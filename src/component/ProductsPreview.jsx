@@ -35,7 +35,7 @@ function CartProducts(props) {
 				onClick={props.toggle}
 				data-dismiss="modal"
 				className="sb-close-btn close"
-				href="#"
+				to="#"
 			>
 				{' '}
 				<i className=" fa fa-close" />{' '}
@@ -58,7 +58,7 @@ function CartProducts(props) {
 						<div className="item">
 							<img src="img/products/prod-single-1.png" alt="" />
 							<Link
-								href="img/products/prod-big-1.png"
+								to="img/products/prod-big-1.png"
 								data-gal="prettyPhoto[prettyPhoto]"
 								title="Product"
 								className="caption-link"
@@ -69,7 +69,7 @@ function CartProducts(props) {
 						<div className="item">
 							<img src="img/products/prod-single-2.png" alt="" />
 							<Link
-								href="img/products/prod-big-2.png"
+								to="img/products/prod-big-2.png"
 								data-gal="prettyPhoto[prettyPhoto]"
 								title="Product"
 								className="caption-link"
@@ -80,7 +80,7 @@ function CartProducts(props) {
 						<div className="item">
 							<img src="img/products/prod-single-3.png" alt="" />
 							<Link
-								href="img/products/prod-big-3.png"
+								to="img/products/prod-big-3.png"
 								data-gal="prettyPhoto[prettyPhoto]"
 								title="Product"
 								className="caption-link"
@@ -91,7 +91,7 @@ function CartProducts(props) {
 						<div className="item">
 							<img src="img/products/prod-single-1.png" alt="" />
 							<Link
-								href="img/products/prod-big-1.png"
+								to="img/products/prod-big-1.png"
 								data-gal="prettyPhoto[prettyPhoto]"
 								title="Product"
 								className="caption-link"
@@ -166,7 +166,7 @@ function CartProducts(props) {
 						</div>
 						<div className="single-caption">
 							<h3 className="section-title">
-								<Link href="#">
+								<Link to="#">
 									{' '}
 									<span className="light-font"> organic </span> <strong>pinapple</strong>
 								</Link>
@@ -226,14 +226,14 @@ function CartProducts(props) {
 									{' '}
 									<strong> TAGS </strong>{' '}
 									<span>
-										: <Link href="#">fruits</Link> <Link href="#">vegetables</Link>{' '}
-										<Link href="#">juices</Link>
+										: <Link to="#">fruits</Link> <Link to="#">vegetables</Link>{' '}
+										<Link to="#">juices</Link>
 									</span>{' '}
 								</li>
 							</ul>
 							<div className="divider-full-1" />
 							<div className="add-cart pt-15">
-								<Link href="#" className="theme-btn btn">
+								<Link to="#" className="theme-btn btn">
 									{' '}
 									<strong> ADD TO CART </strong>{' '}
 								</Link>

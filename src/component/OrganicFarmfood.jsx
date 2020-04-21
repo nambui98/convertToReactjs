@@ -37,7 +37,7 @@ function OrganicFarmfood(props) {
 								<span className="light-font">fresh from </span> <strong> naturix farm</strong>{' '}
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-							<Link href="#" className="sm-bnt-wht">
+							<Link to="#" className="sm-bnt-wht">
 								Read More
 							</Link>
 						</div>
@@ -50,7 +50,7 @@ function OrganicFarmfood(props) {
 								<span className="light-font"> 100%</span> <strong> organic goods</strong>{' '}
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-							<Link href="#" className="sm-bnt-wht">
+							<Link to="#" className="sm-bnt-wht">
 								Read More
 							</Link>
 						</div>
@@ -63,7 +63,7 @@ function OrganicFarmfood(props) {
 								<span className="light-font">premium </span> <strong> quality</strong>{' '}
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-							<Link href="#" className="sm-bnt-wht">
+							<Link to="#" className="sm-bnt-wht">
 								Read More
 							</Link>
 						</div>
@@ -76,7 +76,7 @@ function OrganicFarmfood(props) {
 								<span className="light-font">100% </span> <strong>natural</strong>{' '}
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-							<Link href="#" className="sm-bnt-wht">
+							<Link to="#" className="sm-bnt-wht">
 								Read More
 							</Link>
 						</div>

@@ -37,24 +37,21 @@ function Slide(props) {
 								<div className="slide-caption container text-center">
 									<div className="slide-title">
 										<img src="img/icons/slide-txt-1.png" alt="" />
-										<span>100% Guarantee</span>
+										<span>100% Bảo Hành</span>
 									</div>
 									<div className="slide-title2 pb-50">
 										<h2 className="section-title">
 											{' '}
-											<span className="light-font">Live </span> <strong>organic </strong>{' '}
-											<span className="light-font">for live </span> <strong>healthy </strong>{' '}
+											<span className="light-font">Sống </span> <strong>hữu cơ </strong>{' '}
+											<span className="light-font">để sống </span> <strong>khoẻ mạnh </strong>{' '}
 										</h2>
-										<h4 className="sub-title">
-											{' '}
-											ORGANIC FRUITS, VEGETABLES, AND LOT MORE TO YOUR DOOR{' '}
-										</h4>
+										<h4 className="sub-title"> TRÁI CÂY VÀ RAU HỮU CƠ CHO BẠN </h4>
 									</div>
 									<div className="slide">
-										<a href="#" className="slide-btn">
+										<Link to="/shop" className="slide-btn">
 											{' '}
-											Shop Now
-										</a>
+											cửa hàng
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -62,31 +59,28 @@ function Slide(props) {
 					</div>
 				</div>
 				<div className="item">
-					<img alt=".." src="img/slider/slide-1.jpg" />
+					<img alt=".." src="img/slider/sliced-fruits-on-tray-1132047.jpg" />
 					<div className="tbl-wrp slide-1">
 						<div className="text-middle">
 							<div className="tbl-cell">
 								<div className="slide-caption container text-center">
 									<div className="slide-title">
 										<img src="img/icons/slide-txt-1.png" alt="" />
-										<span>100% Guarantee</span>
+										<span>100% Bảo Hành</span>
 									</div>
 									<div className="slide-title2 pb-50">
 										<h2 className="section-title">
 											{' '}
-											<span className="light-font">Live </span> <strong>organic </strong>{' '}
-											<span className="light-font">for live </span> <strong>healthy </strong>{' '}
+											<span className="light-font">Sống </span> <strong>hữu cơ </strong>{' '}
+											<span className="light-font">để sống </span> <strong>khoẻ mạnh </strong>{' '}
 										</h2>
-										<h4 className="sub-title">
-											{' '}
-											ORGANIC FRUITS, VEGETABLES, AND LOT MORE TO YOUR DOOR{' '}
-										</h4>
+										<h4 className="sub-title"> TRÁI CÂY VÀ RAU HỮU CƠ CHO BẠN </h4>
 									</div>
 									<div className="slide">
-										<a href="#" className="slide-btn">
+										<Link to="/shop" className="slide-btn">
 											{' '}
-											Shop Now
-										</a>
+											cửa hàng
+										</Link>
 									</div>
 								</div>
 							</div>

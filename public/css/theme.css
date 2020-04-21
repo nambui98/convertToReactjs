@@ -2468,10 +2468,10 @@ p {
 }
 
 @media (min-width: 1200px) {
-    .organic-wrap .theme-tabs > li:nth-child(-n + 2) {
+    .organic-wrap .theme-tabs > li:nth-child(-n + 1) {
         float: left;
     }
-    .organic-wrap .theme-tabs > li:nth-child(n + 3) {
+    .organic-wrap .theme-tabs > li:nth-child(n + 2) {
         float: right;
     }
     .organic-wrap .logo-img {

@@ -25,37 +25,37 @@ function NaturixGoods(props) {
 				<div className="tabs-box text-center">
 					<ul className="theme-tabs small">
 						<li className="">
-							<Link href="#naturix-tab-1" data-toggle="tab">
+							<Link to="#naturix-tab-1" data-toggle="tab">
 								{' '}
 								<span className="light-font">all </span> <strong>goods </strong>{' '}
 							</Link>
 						</li>
 						<li className="active">
-							<Link href="#naturix-tab-2" data-toggle="tab">
+							<Link to="#naturix-tab-2" data-toggle="tab">
 								{' '}
 								<span className="light-font">organic </span> <strong>vegetables </strong>{' '}
 							</Link>
 						</li>
 						<li className="">
-							<Link href="#naturix-tab-3" data-toggle="tab">
+							<Link to="#naturix-tab-3" data-toggle="tab">
 								{' '}
 								<span className="light-font">organic </span> <strong>fruits </strong>{' '}
 							</Link>
 						</li>
 						<li className="">
-							<Link href="#naturix-tab-4" data-toggle="tab">
+							<Link to="#naturix-tab-4" data-toggle="tab">
 								{' '}
 								<span className="light-font">organic </span> <strong>tea </strong>{' '}
 							</Link>
 						</li>
 						<li className="">
-							<Link href="#naturix-tab-5" data-toggle="tab">
+							<Link to="#naturix-tab-5" data-toggle="tab">
 								{' '}
 								<span className="light-font">all </span> <strong>bread </strong>{' '}
 							</Link>
 						</li>
 						<li className="">
-							<Link href="#naturix-tab-6" data-toggle="tab">
+							<Link to="#naturix-tab-6" data-toggle="tab">
 								{' '}
 								<span className="light-font">organic </span> <strong>juices </strong>{' '}
 							</Link>
@@ -71,10 +71,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -82,7 +82,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -98,10 +98,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -109,7 +109,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -127,10 +127,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -138,7 +138,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -154,10 +154,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -165,7 +165,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -183,10 +183,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -194,7 +194,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -210,10 +210,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -221,7 +221,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -239,10 +239,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -250,7 +250,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -266,10 +266,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -277,7 +277,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -295,10 +295,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -306,7 +306,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -322,10 +322,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -333,7 +333,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -351,10 +351,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -362,7 +362,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -378,10 +378,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -389,7 +389,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -407,10 +407,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -418,7 +418,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -434,10 +434,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -445,7 +445,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -463,10 +463,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -474,7 +474,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -490,10 +490,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -501,7 +501,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -523,10 +523,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -534,7 +534,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -550,10 +550,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -561,7 +561,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -579,10 +579,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -590,7 +590,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -606,10 +606,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -617,7 +617,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -635,10 +635,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -646,7 +646,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -662,10 +662,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -673,7 +673,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -691,10 +691,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -702,7 +702,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -718,10 +718,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -729,7 +729,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -747,10 +747,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -758,7 +758,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -774,10 +774,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -785,7 +785,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -803,10 +803,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -814,7 +814,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -830,10 +830,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -841,7 +841,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -859,10 +859,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -870,7 +870,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -886,10 +886,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -897,7 +897,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -915,10 +915,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -926,7 +926,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -942,10 +942,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -953,7 +953,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -975,10 +975,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -986,7 +986,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -1002,10 +1002,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1013,7 +1013,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -1031,10 +1031,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1042,7 +1042,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -1058,10 +1058,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1069,7 +1069,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -1087,10 +1087,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1098,7 +1098,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -1114,10 +1114,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1125,7 +1125,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -1143,10 +1143,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1154,7 +1154,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -1170,10 +1170,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1181,7 +1181,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -1199,10 +1199,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1210,7 +1210,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -1226,10 +1226,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1237,7 +1237,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -1255,10 +1255,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1266,7 +1266,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -1282,10 +1282,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1293,7 +1293,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -1311,10 +1311,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1322,7 +1322,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -1338,10 +1338,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1349,7 +1349,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -1367,10 +1367,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1378,7 +1378,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -1394,10 +1394,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1405,7 +1405,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -1427,10 +1427,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1438,7 +1438,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -1454,10 +1454,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1465,7 +1465,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -1483,10 +1483,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1494,7 +1494,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -1510,10 +1510,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1521,7 +1521,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -1539,10 +1539,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1550,7 +1550,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -1566,10 +1566,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1577,7 +1577,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -1595,10 +1595,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1606,7 +1606,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -1622,10 +1622,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1633,7 +1633,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -1651,10 +1651,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1662,7 +1662,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -1678,10 +1678,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1689,7 +1689,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -1707,10 +1707,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1718,7 +1718,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -1734,10 +1734,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1745,7 +1745,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -1763,10 +1763,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1774,7 +1774,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -1790,10 +1790,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1801,7 +1801,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -1819,10 +1819,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1830,7 +1830,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -1846,10 +1846,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1857,7 +1857,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -1879,10 +1879,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1890,7 +1890,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -1906,10 +1906,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1917,7 +1917,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -1935,10 +1935,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1946,7 +1946,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -1962,10 +1962,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -1973,7 +1973,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -1991,10 +1991,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2002,7 +2002,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -2018,10 +2018,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2029,7 +2029,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -2047,10 +2047,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2058,7 +2058,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -2074,10 +2074,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2085,7 +2085,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -2103,10 +2103,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2114,7 +2114,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -2130,10 +2130,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2141,7 +2141,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -2159,10 +2159,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2170,7 +2170,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -2186,10 +2186,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2197,7 +2197,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -2215,10 +2215,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2226,7 +2226,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -2242,10 +2242,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2253,7 +2253,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -2271,10 +2271,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2282,7 +2282,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -2298,10 +2298,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2309,7 +2309,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -2331,10 +2331,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2342,7 +2342,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -2358,10 +2358,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2369,7 +2369,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -2387,10 +2387,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2398,7 +2398,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -2414,10 +2414,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2425,7 +2425,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -2443,10 +2443,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2454,7 +2454,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -2470,10 +2470,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2481,7 +2481,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -2499,10 +2499,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2510,7 +2510,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -2526,10 +2526,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2537,7 +2537,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>
@@ -2555,10 +2555,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/3.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2566,7 +2566,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cherry</strong>
 											</Link>
@@ -2582,10 +2582,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/5.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2593,7 +2593,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pinapple</strong>
 											</Link>
@@ -2611,10 +2611,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/2.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2622,7 +2622,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>cabbage</strong>
 											</Link>
@@ -2638,10 +2638,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/4.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2649,7 +2649,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> green </span> <strong>salad</strong>
 											</Link>
@@ -2667,10 +2667,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/7.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2678,7 +2678,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>mushroom</strong>
 											</Link>
@@ -2694,10 +2694,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/6.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2705,7 +2705,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>onion</strong>
 											</Link>
@@ -2723,10 +2723,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/8.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2734,7 +2734,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>pepper </strong>
 											</Link>
@@ -2750,10 +2750,10 @@ function NaturixGoods(props) {
 										<img className="prod-img" alt="" src="img/products/1.png" />
 										<img className="shape" alt="" src="img/icons/shap-small.png" />
 										<div className="prod-icons">
-											<Link href="#" className="fa fa-heart" />
-											<Link href="#" className="fa fa-shopping-basket" />
+											<Link to="#" className="fa fa-heart" />
+											<Link to="#" className="fa fa-shopping-basket" />
 											<Link
-												href="#product-preview"
+												to="#product-preview"
 												data-toggle="modal"
 												className="fa fa-expand"
 											/>
@@ -2761,7 +2761,7 @@ function NaturixGoods(props) {
 									</div>
 									<div className="product-caption">
 										<h3 className="product-title">
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font"> organic </span> <strong>tomato</strong>
 											</Link>

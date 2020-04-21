@@ -2,28 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Header from '../component/Header';
+import Breadcrumb from '../component/Breadcrumb';
 
 About.propTypes = {};
 
 function About(props) {
 	return [
-		<section className="breadcrumb-bg">
-			<div className="theme-container container ">
-				<div className="site-breadcumb white-clr">
-					<h2 className="section-title">
-						{' '}
-						<span className="light-font">about </span> <strong className="clr-txt">naturix </strong>{' '}
-						<span className="light-font">farmfood </span>{' '}
-					</h2>
-					<ol className="breadcrumb breadcrumb-menubar">
-						<li>
-							{' '}
-							<Link href="#"> Home </Link> About
-						</li>
-					</ol>
-				</div>
-			</div>
-		</section>,
+		<Breadcrumb nameLocation="Về chúng tôi" />,
 		<section className="organic-farm-2 sec-space-bottom">
 			<img alt="" src="img/extra/sec-img-7.png" className="left-bottom-img" />
 			<img alt="" src="img/extra/sec-img-8.png" className="right-top-img" />
@@ -70,7 +55,7 @@ function About(props) {
 								<span className="light-font">fresh from </span> <strong> naturix farm</strong>{' '}
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-							<Link href="#" className="sm-bnt-wht">
+							<Link to="#" className="sm-bnt-wht">
 								Read More
 							</Link>
 						</div>
@@ -83,7 +68,7 @@ function About(props) {
 								<span className="light-font"> 100%</span> <strong> organic goods</strong>{' '}
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-							<Link href="#" className="sm-bnt-wht">
+							<Link to="#" className="sm-bnt-wht">
 								Read More
 							</Link>
 						</div>
@@ -96,7 +81,7 @@ function About(props) {
 								<span className="light-font">premium </span> <strong> quality</strong>{' '}
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-							<Link href="#" className="sm-bnt-wht">
+							<Link to="#" className="sm-bnt-wht">
 								Read More
 							</Link>
 						</div>
@@ -109,7 +94,7 @@ function About(props) {
 								<span className="light-font">100% </span> <strong>natural</strong>{' '}
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-							<Link href="#" className="sm-bnt-wht">
+							<Link to="#" className="sm-bnt-wht">
 								Read More
 							</Link>
 						</div>
@@ -148,7 +133,7 @@ function About(props) {
 				</div>
 				<div className="about-wrap">
 					<img className="logo-img" alt="" src="img/extra/sign-1.png" />
-					<h4 className>
+					<h4>
 						{' '}
 						<strong>Gabriel</strong> <span className="light-font"> Johnson </span>{' '}
 					</h4>
@@ -178,7 +163,7 @@ function About(props) {
 									<span className="divider" />
 									<h3 className="title-1">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">organic </span> <strong> fruits</strong>{' '}
 										</Link>{' '}
@@ -192,7 +177,7 @@ function About(props) {
 									<span className="divider" />
 									<h3 className="title-1">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">fresh </span> <strong> vegetables</strong>{' '}
 										</Link>{' '}
@@ -206,7 +191,7 @@ function About(props) {
 									<span className="divider" />
 									<h3 className="title-1">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">organic </span> <strong> breads</strong>{' '}
 										</Link>{' '}
@@ -258,7 +243,7 @@ function About(props) {
 									<span className="divider" />
 									<h3 className="title-1">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">organic </span> <strong> juices</strong>{' '}
 										</Link>{' '}
@@ -272,7 +257,7 @@ function About(props) {
 									<span className="divider" />
 									<h3 className="title-1">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">dried </span> <strong> juices</strong>{' '}
 										</Link>{' '}
@@ -286,7 +271,7 @@ function About(props) {
 									<span className="divider" />
 									<h3 className="title-1">
 										{' '}
-										<Link href="#">
+										<Link to="#">
 											{' '}
 											<span className="light-font">organic </span> <strong> tea</strong>{' '}
 										</Link>{' '}

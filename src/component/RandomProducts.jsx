@@ -17,7 +17,7 @@ function RandomProducts(props) {
 					<i className="fa fa-star" />
 					<i className="fa fa-star" />
 					<i className="fa fa-star" />
-					<span className="light-font"> a taste of </span> <strong>real food</strong>
+					<span className="light-font"> Hương vị </span> <strong>sản phẩm tốt</strong>
 					<i className="fa fa-star" />
 					<i className="fa fa-star" />
 					<i className="fa fa-star" />
@@ -27,10 +27,10 @@ function RandomProducts(props) {
 				{/* Random Products */}
 				<div className="row">
 					<div className="col-md-4 pt-50">
-						<h4 className="sub-title-sm"> NEW FROM THE FARM </h4>
+						<h4 className="sub-title-sm"> Sản phẩm mới </h4>
 						<h2 className="fsz-30 pb-15">
 							{' '}
-							<span className="light-font">organic </span> <strong>new arrivals </strong>{' '}
+							<span className="light-font">Sản phẩm </span> <strong>mới về </strong>{' '}
 						</h2>
 						<OwlCarousel
 							className="nav-1"
@@ -59,7 +59,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span>{' '}
 												<strong>blackberry </strong>{' '}
@@ -79,7 +79,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>peach </strong>{' '}
 											</Link>{' '}
@@ -97,7 +97,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>redberry </strong>{' '}
 											</Link>{' '}
@@ -117,7 +117,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span>{' '}
 												<strong>strawberry </strong>{' '}
@@ -136,7 +136,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>mushroom </strong>{' '}
 											</Link>{' '}
@@ -154,7 +154,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>apple </strong>{' '}
 											</Link>{' '}
@@ -169,10 +169,10 @@ function RandomProducts(props) {
 						</OwlCarousel>
 					</div>
 					<div className="col-md-4 pt-50">
-						<h4 className="sub-title-sm"> Best Seller </h4>
+						<h4 className="sub-title-sm">Giảm giá tốt </h4>
 						<h2 className="fsz-30 pb-15">
 							{' '}
-							<span className="light-font">organic </span> <strong>popular </strong>{' '}
+							<span className="light-font">Sản phẩm </span> <strong>phổ biến </strong>{' '}
 						</h2>
 						<OwlCarousel
 							className="nav-1"
@@ -202,7 +202,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span>{' '}
 												<strong>strawberry </strong>{' '}
@@ -221,7 +221,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>mushroom </strong>{' '}
 											</Link>{' '}
@@ -239,7 +239,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>apple </strong>{' '}
 											</Link>{' '}
@@ -259,7 +259,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>grapes </strong>{' '}
 											</Link>{' '}
@@ -277,7 +277,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span>{' '}
 												<strong>blackberry </strong>{' '}
@@ -296,7 +296,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>beans </strong>{' '}
 											</Link>{' '}
@@ -313,10 +313,10 @@ function RandomProducts(props) {
 					</div>
 
 					<div className="col-md-4 pt-50">
-						<h4 className="sub-title-sm"> Customer Needs </h4>
+						<h4 className="sub-title-sm"> Ngẫu nhiên </h4>
 						<h2 className="fsz-30 pb-15">
 							{' '}
-							<span className="light-font">organic </span> <strong>random </strong>{' '}
+							<span className="light-font" /> <strong>Ngẫu nhiên </strong>{' '}
 						</h2>
 						<OwlCarousel
 							className="nav-1"
@@ -345,7 +345,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>grapes </strong>{' '}
 											</Link>{' '}
@@ -363,7 +363,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span>{' '}
 												<strong>blackberry </strong>{' '}
@@ -382,7 +382,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>beans </strong>{' '}
 											</Link>{' '}
@@ -402,7 +402,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span>{' '}
 												<strong>blackberry </strong>{' '}
@@ -422,7 +422,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>peach </strong>{' '}
 											</Link>{' '}
@@ -440,7 +440,7 @@ function RandomProducts(props) {
 									<div className="random-text">
 										<h3 className="title-1 no-margin">
 											{' '}
-											<Link href="#">
+											<Link to="#">
 												{' '}
 												<span className="light-font">organic </span> <strong>redberry </strong>{' '}
 											</Link>{' '}
@@ -461,20 +461,20 @@ function RandomProducts(props) {
 						<div className="prod-banner green-banner">
 							<h4 className="title">
 								{' '}
-								<span className="light-font"> FRESH FROM OUR FARM : </span>{' '}
-								<strong> GREEN OLIVE </strong>{' '}
+								<span className="light-font"> TƯƠI TỚI TỪ TRANG TRẠNG : </span>{' '}
+								<strong>Ô liu xanh </strong>{' '}
 							</h4>
 							<div className="banner-box">
 								<div className="banner-content">
-									<h3 className="title-sec">Vegetable</h3>
+									<h3 className="title-sec">Rau</h3>
 									<h2 className="section-title">
 										{' '}
-										<span className="light-font">GREEN </span> <strong>OLIVE </strong>{' '}
+										<span className="light-font">Xanh </span> <strong>OLIVE </strong>{' '}
 									</h2>
-									<h4 className="sub-title"> 35% OFF IN JUNE-JULY </h4>
-									<Link href="#" className="btn">
+									<h4 className="sub-title"> 35% VÀO THỨ 4 </h4>
+									<Link to="#" className="btn">
 										{' '}
-										<span> shop now </span> <i className="fa fa-long-arrow-right" />{' '}
+										<span> cửa hàng </span> <i className="fa fa-long-arrow-right" />{' '}
 									</Link>
 								</div>
 							</div>
@@ -486,19 +486,19 @@ function RandomProducts(props) {
 						<div className="prod-banner orange-banner">
 							<h4 className="title">
 								{' '}
-								<span className="light-font"> FRESH SUMMER </span> <strong>FRUITS </strong>{' '}
+								<span className="light-font"> MÙA HÈ VỚI </span> <strong>HOA QUẢ </strong>{' '}
 							</h4>
 							<div className="banner-box">
 								<div className="banner-content">
-									<h3 className="title-sec">Fruits</h3>
+									<h3 className="title-sec">Hoa quả</h3>
 									<h2 className="section-title">
 										{' '}
-										<span className="light-font">ALL</span> <strong>SUMMER </strong>{' '}
+										<span className="light-font">Tất cả</span> <strong>Mùa hè </strong>{' '}
 									</h2>
-									<h4 className="sub-title"> 35% OFF IN JUNE-JULY </h4>
-									<Link href="#" className="btn">
+									<h4 className="sub-title"> 35% VÀO THỨ 4 </h4>
+									<Link to="#" className="btn">
 										{' '}
-										<span> shop now </span> <i className="fa fa-long-arrow-right" />{' '}
+										<span> cửa hàng </span> <i className="fa fa-long-arrow-right" />{' '}
 									</Link>
 								</div>
 							</div>

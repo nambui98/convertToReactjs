@@ -7,7 +7,13 @@ import ProductsPreview from './component/ProductsPreview';
 import SubscribeNewsletter from './component/SubscribeNewsletter';
 import About from './page/About';
 import Error from './page/Error';
+import Shop from './page/Shop';
 import Home from './page/Home';
+import ContactUs from './page/ContactUs';
+import Blog from './page/Blog';
+import Cart from './page/Cart';
+import CheckOut from './page/CheckOut';
+import Contact from './component/Contact';
 
 function App(props) {
 	let location = useLocation();
@@ -23,29 +29,12 @@ function App(props) {
 	const toggle = () => setModal(!modal);
 	return (
 		<div className="wrapper">
-			{/* <Button color="danger" onClick={toggle}>
-				Click
-			</Button>
-			<Modal isOpen={modal} toggle={toggle} className={className}>
-				<ModalHeader toggle={toggle}>Modal title</ModalHeader>
-				<ModalBody>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.
-				</ModalBody>
-				<ModalFooter>
-					<Button color="primary" onClick={toggle}>
-						Do Something
-					</Button>{' '}
-					<Button color="secondary" onClick={toggle}>
-						Cancel
-					</Button>
-				</ModalFooter>
-			</Modal> */}
-
 			<main className={classMain}>
+				{location.pathname === '/home' || location.pathname === '/' || location.pathname === '/about' ? (
+					''
+				) : (
+					<Contact />
+				)}
 				<Menu key="menu" />
 				<Switch>
 					<Route path="/about">
@@ -53,6 +42,21 @@ function App(props) {
 					</Route>
 					<Route path="/" exact>
 						<Home key="home" handleShow={handleShow} />
+					</Route>
+					<Route path="/shop" exact>
+						<Shop key="shop" handleShow={handleShow} />
+					</Route>
+					<Route path="/blog" exact>
+						<Blog key="blog" />
+					</Route>
+					<Route path="/contact" exact>
+						<ContactUs key="contact" />
+					</Route>
+					<Route path="/cart" exact>
+						<Cart key="cart" />
+					</Route>
+					<Route path="/checkout" exact>
+						<CheckOut key="checkout" />
 					</Route>
 					<Route component={Error} />
 				</Switch>
