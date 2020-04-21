@@ -37,12 +37,13 @@ function App(props) {
 				)}
 				<Menu key="menu" />
 				<Switch>
-					<Route path="/about">
-						<About key="about" />
-					</Route>
 					<Route path="/" exact>
 						<Home key="home" handleShow={handleShow} />
 					</Route>
+					<Route path="/about">
+						<About key="about" />
+					</Route>
+
 					<Route path="/shop" exact>
 						<Shop key="shop" handleShow={handleShow} />
 					</Route>
