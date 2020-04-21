@@ -40,6 +40,9 @@ function App(props) {
 					<Route path="/" exact>
 						<Home key="home" handleShow={handleShow} />
 					</Route>
+					<Route path="/convertToReactjs" exact>
+						<Home key="home" handleShow={handleShow} />
+					</Route>
 					<Route path="/about" exact>
 						<About key="about" />
 					</Route>
